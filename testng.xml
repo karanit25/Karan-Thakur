@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="1">
+	<test name="Regression">
+
+		<classes>
+			<class name="com.qa.test.ServerHealthCheckTest" />
+			<class name="com.qa.test.ServerVersionInfoTest" />
+			<class name="com.qa.test.GetCallProductTest" />
+			<class name="com.qa.test.PostCallProductTest" />
+			<class name="com.qa.test.PutCallProductTest" />
+			<class name="com.qa.test.DeleteCallProduct" />
+		</classes>
+
+	</test>
+</suite>

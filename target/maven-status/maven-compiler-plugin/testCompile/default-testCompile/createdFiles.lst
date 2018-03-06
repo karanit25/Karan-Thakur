@@ -1,0 +1,8 @@
+com\qa\base\PropHandler.class
+com\qa\test\GetCallProductTest.class
+com\qa\test\PostCallProductTest.class
+com\qa\test\ServerHealthCheckTest.class
+com\qa\base\FunctionalTest.class
+com\qa\test\DeleteCallProduct.class
+com\qa\test\ServerVersionInfoTest.class
+com\qa\test\PutCallProductTest.class

@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  Regression</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 06 23:57:08 CET 2018</td>
+</tr>
+<tr><td>Total time:</td><td>6 seconds (6339 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.test.ServerHealthCheckTest.healthCheck()'><b>healthCheck</b><br>Test class: com.qa.test.ServerHealthCheckTest</td>
+<td></td>
+<td>1</td>
+<td>com.qa.test.ServerHealthCheckTest@2d6e8792</td></tr>
+<tr>
+<td title='com.qa.test.PostCallProductTest.postCallProduct()'><b>postCallProduct</b><br>Test class: com.qa.test.PostCallProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.PostCallProductTest@17f6480</td></tr>
+<tr>
+<td title='com.qa.test.PutCallProductTest.putCallProduct()'><b>putCallProduct</b><br>Test class: com.qa.test.PutCallProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.PutCallProductTest@2812cbfa</td></tr>
+<tr>
+<td title='com.qa.test.DeleteCallProduct.testDelete()'><b>testDelete</b><br>Test class: com.qa.test.DeleteCallProduct</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.DeleteCallProduct@34ce8af7</td></tr>
+<tr>
+<td title='com.qa.test.GetCallProductTest.testGetAllProduct()'><b>testGetAllProduct</b><br>Test class: com.qa.test.GetCallProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.GetCallProductTest@2acf57e3</td></tr>
+<tr>
+<td title='com.qa.test.GetCallProductTest.testGetAllProductButOnlyNameAndPrice()'><b>testGetAllProductButOnlyNameAndPrice</b><br>Test class: com.qa.test.GetCallProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.GetCallProductTest@2acf57e3</td></tr>
+<tr>
+<td title='com.qa.test.GetCallProductTest.testGetAllProductByCategoryID()'><b>testGetAllProductByCategoryID</b><br>Test class: com.qa.test.GetCallProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.GetCallProductTest@2acf57e3</td></tr>
+<tr>
+<td title='com.qa.test.GetCallProductTest.testGetAllProductByLimitAndSkip()'><b>testGetAllProductByLimitAndSkip</b><br>Test class: com.qa.test.GetCallProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.GetCallProductTest@2acf57e3</td></tr>
+<tr>
+<td title='com.qa.test.GetCallProductTest.testGetAllProductCategoryNameCoffeePods()'><b>testGetAllProductCategoryNameCoffeePods</b><br>Test class: com.qa.test.GetCallProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.GetCallProductTest@2acf57e3</td></tr>
+<tr>
+<td title='com.qa.test.GetCallProductTest.testGetAllProductNameHavingStarWarsAndPriceLT30()'><b>testGetAllProductNameHavingStarWarsAndPriceLT30</b><br>Test class: com.qa.test.GetCallProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.GetCallProductTest@2acf57e3</td></tr>
+<tr>
+<td title='com.qa.test.GetCallProductTest.testGetAllProductPricelte1()'><b>testGetAllProductPricelte1</b><br>Test class: com.qa.test.GetCallProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.GetCallProductTest@2acf57e3</td></tr>
+<tr>
+<td title='com.qa.test.GetCallProductTest.testGetAllProductSelectByType()'><b>testGetAllProductSelectByType</b><br>Test class: com.qa.test.GetCallProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.GetCallProductTest@2acf57e3</td></tr>
+<tr>
+<td title='com.qa.test.GetCallProductTest.testGetAllProductSkipByThResult()'><b>testGetAllProductSkipByThResult</b><br>Test class: com.qa.test.GetCallProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.GetCallProductTest@2acf57e3</td></tr>
+<tr>
+<td title='com.qa.test.GetCallProductTest.testGetAllProductSortAsec()'><b>testGetAllProductSortAsec</b><br>Test class: com.qa.test.GetCallProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.GetCallProductTest@2acf57e3</td></tr>
+<tr>
+<td title='com.qa.test.GetCallProductTest.testGetAllProductSortDesc()'><b>testGetAllProductSortDesc</b><br>Test class: com.qa.test.GetCallProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.GetCallProductTest@2acf57e3</td></tr>
+<tr>
+<td title='com.qa.test.GetCallProductTest.testGetAllProductTypeNeitherNor()'><b>testGetAllProductTypeNeitherNor</b><br>Test class: com.qa.test.GetCallProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.GetCallProductTest@2acf57e3</td></tr>
+<tr>
+<td title='com.qa.test.GetCallProductTest.testGetAllProductWithLimit()'><b>testGetAllProductWithLimit</b><br>Test class: com.qa.test.GetCallProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.GetCallProductTest@2acf57e3</td></tr>
+<tr>
+<td title='com.qa.test.GetCallProductTest.testGetAllProductWithPriceEitherOR()'><b>testGetAllProductWithPriceEitherOR</b><br>Test class: com.qa.test.GetCallProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.GetCallProductTest@2acf57e3</td></tr>
+<tr>
+<td title='com.qa.test.GetCallProductTest.testGetAllProductWithPriceGT10()'><b>testGetAllProductWithPriceGT10</b><br>Test class: com.qa.test.GetCallProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.GetCallProductTest@2acf57e3</td></tr>
+<tr>
+<td title='com.qa.test.GetCallProductTest.testGetProductById()'><b>testGetProductById</b><br>Test class: com.qa.test.GetCallProductTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.GetCallProductTest@2acf57e3</td></tr>
+<tr>
+<td title='com.qa.test.ServerVersionInfoTest.versionInfo()'><b>versionInfo</b><br>Test class: com.qa.test.ServerVersionInfoTest</td>
+<td></td>
+<td>0</td>
+<td>com.qa.test.ServerVersionInfoTest@506e6d5e</td></tr>
+</table><p>
+</body>
+</html>
